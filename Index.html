@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Jogo</title>
+</head>
+<body>
+
+    <br/>
+    <button id="btnIniciar" name="btnIniciar" onclick="Clicar()">Iniciar Jogo</button>
+    <input type="text" id="txtResultado" name="txtResultado" placeholder="Resultado">
+    <br/>
+    <br/>
+
+    <img src="./pedra1.png" onclick="Escolha1()">
+    <img src="./papel1Azul.png" onclick="Escolha2()">
+    <img src="./tesoura1.png" onclick="Escolha3()">
+    <br/>
+    <img src="./pedra2.png" onclick="Escolha4()">
+    <img src="./papel2Vermelho.png" onclick="Escolha5()">
+    <img src="./tesoura2.png" onclick="Escolha6()">
+    <br/>
+    <br/>
+
+    <button onclick="Resultado()" id="btnResultado">Mostrar Resultado</button>
+</body>
+</html>
